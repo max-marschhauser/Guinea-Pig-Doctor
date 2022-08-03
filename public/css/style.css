@@ -1,1 +1,26 @@
+:root {
+  font-size: 15px;
+}
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.header {
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  padding-block: 1.5rem;
+  border-bottom: 1px solid gray;
+}
+.header__logo {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
