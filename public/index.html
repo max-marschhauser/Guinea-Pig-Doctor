@@ -5,32 +5,121 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Guinea Pig Doctor</title>
+
         <link rel="icon" href="img/guineapig_favicon.png" />
+
         <link rel="stylesheet" href="css/style.css" />
         <script src="scripts/index.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </head>
     <body>
-        <header class="header">
-            <div class="header__logo">G. P. Doc.</div>
-            <div class="header__info">
-                <div class="header__info__text"><span>Mobile:</span><br />098/765-4321</div>
-                <div class="header__info__text"><span>Adress:</span><br />Green Street 2, City</div>
-                <div class="header__info__text"><span>Mon - Fri</span><br />10:00h - 18:00h</div>
+        <header class="logo"><span>G</span>uinea <span>P</span>ig <span>D</span>octor</header>
+        <div class="wrapper">
+            <div class="info">
+                <div><span>Mobile:</span><br />098/765-4321</div>
+                <div><span>Adress:</span><br />Green Street 2, City</div>
+                <div><span>Mon - Fri</span><br />10:00h - 18:00h</div>
             </div>
-        </header>
-        <div class="hero">
-            <div class="hero__wrapper">
-                <div class="hero__wrapper__text">
-                    <span>Guinea</span>
-                    <span>Pig</span>
-                    <span>Doctor</span>
+
+            <div class="hero">
+                <div class="hero__wrapper">
+                    <div class="hero__wrapper__text">
+                        <span>Guinea</span>
+                        <span>Pig</span>
+                        <span>Doctor</span>
+                    </div>
+                    <img class="hero__wrapper__image" src="img/guinea_pig_hero.png" />
                 </div>
-                <img class="hero__wrapper__image" src="" />
+                <div class="hero__button">
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <div class="hero__button">
-                <span></span>
-                <span></span>
+
+            <div class="section">
+                <p>What we do?</p>
+                <ul>
+                    <li>Medical treatment</li>
+                    <li>Guinea pig hygiene</li>
+                    <li>Selling related products</li>
+                </ul>
             </div>
+
+            <div class="section section--horizontal section--inverted">
+                <img class="img--double" src="img/guinea_pig_2.png" />
+                <img class="img--double" src="img/guinea_pig_1.png" />
+            </div>
+
+            <div class="section">
+                <p>Medical treatment</p>
+                <ul>
+                    <li>Diagnosis</li>
+                    <li>Biopsy</li>
+                    <li>Surgery</li>
+                    <li>X-ray scaning</li>
+                </ul>
+            </div>
+
+            <div class="section section--inverted">
+                <p>Guinea pig hygiene</p>
+                <ul>
+                    <li>Hair styling</li>
+                    <li>Nail trimming</li>
+                    <li>Grooming</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <p>Products</p>
+                <ul>
+                    <li>Food & Hay</li>
+                    <li>Housing & Cages</li>
+                    <li>Flooring</li>
+                </ul>
+            </div>
+
+            <div class="section section--inverted">
+                <p>Doctor Bear is looking forward to see you!</p>
+                <img class="img--single" src="img/doctor.png" />
+            </div>
+
+            <div class="section section--vertical">
+                <img class="img--single" src="img/guinea_pig_3.png" />
+            </div>
+
+            <footer class="section section--inverted">
+                <div class="footer__icons">
+                    <a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://twitter.com/?lang=hr" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><ion-icon name="logo-pinterest"></ion-icon></a>
+                </div>
+
+                <div class="footer__text">
+                    <div>Autor stranice: Max Marschhauser</div>
+                    <div>e-mail: max.marschhauser<wbr />@gmail.com</div>
+                    <div>Telefon: 098/921-0125</div>
+                </div>
+
+                <div class="footer__text">
+                    <span data-copyright-date></span>
+                    <!-- DODATI GODINU U JS -->
+                    <br />Guinea Pig Doctor
+                    <br />
+                    Sva prava pridržana
+                </div>
+
+                <a class="footer__text" href="#top">Beam me up, Scotty!</a>
+            </footer>
         </div>
     </body>
 </html>
