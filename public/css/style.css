@@ -16,12 +16,18 @@
   scroll-behavior: smooth;
 }
 
+*:hover,
+*:active {
+  outline: none;
+}
+
 .logo {
   display: block;
   position: sticky;
   top: 0;
   z-index: 1;
   padding-block: 0.5rem;
+  border-bottom: 0.25rem solid var(--col-main);
   background-color: var(--col-dark);
   text-align: center;
   font-size: 1.5rem;
@@ -162,6 +168,8 @@
   gap: 1rem;
   padding-block: 1rem;
   width: 100vw;
+  opacity: 0;
+  transition: all 0.2s ease;
 }
 .wrapper .section--horizontal {
   flex-direction: row;
@@ -199,6 +207,9 @@
   .wrapper .section ul li {
     font-size: 2rem;
   }
+}
+.wrapper .section--show {
+  opacity: 1;
 }
 .wrapper .img--double {
   width: 8rem;
