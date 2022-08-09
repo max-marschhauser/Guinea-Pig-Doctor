@@ -169,7 +169,7 @@
   padding-block: 1rem;
   width: 100vw;
   opacity: 0;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 .wrapper .section--horizontal {
   flex-direction: row;
@@ -202,6 +202,8 @@
   padding-block: 1rem;
   font-size: 1.2rem;
   text-align: center;
+  opacity: 0;
+  transition: all 1s ease;
 }
 @media only screen and (min-height: 900px) and (min-width: 900px) {
   .wrapper .section ul li {
@@ -241,4 +243,8 @@
   text-align: center;
   text-decoration: none;
   color: var(--col-main);
+}
+
+.text--show {
+  opacity: 1 !important;
 }
