@@ -1,4 +1,4 @@
-Responsive brochure page for local veterinarian specialized in guinea pig treatment built with HTML, CSS and JS
+A responsive brochure page for local veterinarian specialized in guinea pig treatment. Built with HTML, CSS and JS.
 
 Fairly simple page built for fun.
 
